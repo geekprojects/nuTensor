@@ -21,4 +21,4 @@ nuTensor does not guarantee that sites will work fine: it is for advanced users 
 
 ## License
 
-<a href="https://github.com/gorhill/umatrix/blob/master/LICENSE.txt">GPLv3</a>.
+<a href="https://github.com/geekprojects/nuTensor/blob/master/LICENSE.txt">GPLv3</a>.
