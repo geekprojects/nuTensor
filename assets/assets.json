@@ -80,8 +80,8 @@
 		"content": "recipes",
 		"title": "Ruleset recipes for English websites",
 		"contentURL": [
-			"https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/recipes/recipes_en.txt",
-			"assets/umatrix/recipes_en.txt"
+			"https://raw.githubusercontent.com/geekprojects/nuAssets/master/recipes/recipes_en.txt",
+			"assets/nuTensor/recipes_en.txt"
 		],
 		"lang": "en"
 	}

@@ -2,10 +2,10 @@
 #
 # This script assumes a linux environment
 
-echo "*** uMatrix(Chromium): Creating package"
-echo "*** uMatrix(Chromium): Copying files"
+echo "*** nuTensor(Chromium): Creating package"
+echo "*** nuTensor(Chromium): Copying files"
 
-DES=./dist/build/uMatrix.chromium
+DES=./dist/build/nuTensor.chromium
 rm -rf $DES
 mkdir -p $DES
 
@@ -18,19 +18,19 @@ cp -R ./platform/chromium/img/*         $DES/img/
 cp    ./platform/chromium/manifest.json $DES/
 cp    LICENSE.txt                       $DES/
 
-echo "*** uMatrix.chromium: Generating meta..."
+echo "*** nuTensor.chromium: Generating meta..."
 python3 tools/make-chromium-meta.py $DES/
 
 if [ "$1" = all ]; then
-    echo "*** uMatrix.chromium: Creating package..."
+    echo "*** nuTensor.chromium: Creating package..."
     pushd $(dirname $DES/)
-    zip uMatrix.chromium.zip -qr $(basename $DES/)/*
+    zip nuTensor.chromium.zip -qr $(basename $DES/)/*
     popd
 elif [ -n "$1" ]; then
-    echo "*** uMatrix.chromium: Creating versioned package..."
+    echo "*** nuTensor.chromium: Creating versioned package..."
     pushd $(dirname $DES/) > /dev/null
-    zip uMatrix_"$1".chromium.zip -qr $(basename $DES/)/*
+    zip nuTensor_"$1".chromium.zip -qr $(basename $DES/)/*
     popd > /dev/null
 fi
 
-echo "*** uMatrix(Chromium): Package done."
+echo "*** nuTensor(Chromium): Package done."

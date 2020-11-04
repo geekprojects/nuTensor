@@ -1,10 +1,10 @@
-uMatrix: A point-and-click matrix-based firewall, with many privacy-enhancing tools.
+nuTensor: A point-and-click matrix-based firewall, with many privacy-enhancing tools.
 
 *For advanced users.*
 
-uMatrix put you in full control of where your browser is allowed to connect, what type of data it is allowed to download, and what it is allowed to execute. Nobody else decides for you: You choose. You are in full control of your privacy.
+nuTensor put you in full control of where your browser is allowed to connect, what type of data it is allowed to download, and what it is allowed to execute. Nobody else decides for you: You choose. You are in full control of your privacy.
 
-Out of the box, uMatrix works in relax block-all/allow-exceptionally mode, meaning web sites which require 3rd-party scripts are likely to be "broken". With two clicks, uMatrix can be set to work in allow-all/block-exceptionally mode, which generally will not break web sites. See https://github.com/gorhill/httpswitchboard/wiki/How-to-use-HTTP-Switchboard:-Two-opposing-views for more details on this topic.
+Out of the box, nuTensor works in relax block-all/allow-exceptionally mode, meaning web sites which require 3rd-party scripts are likely to be "broken". With two clicks, uMatrix can be set to work in allow-all/block-exceptionally mode, which generally will not break web sites. See https://github.com/gorhill/httpswitchboard/wiki/How-to-use-HTTP-Switchboard:-Two-opposing-views for more details on this topic.
 
 * See ALL the remote connections, failed or attempted, depending on whether they were blocked or allowed (you decide).
 
@@ -14,7 +14,7 @@ Out of the box, uMatrix works in relax block-all/allow-exceptionally mode, meani
 
 * You do not have to solely rely on just one particular curated blacklist (arguably with many missing entries) outside which nothing else can be blocked: You are in full control.
 
-* Ease of use: uMatrix lets you easily whitelist/blacklist net requests which originate from within a web page according to a point-and-click matrix:
+* Ease of use: nuTensor lets you easily whitelist/blacklist net requests which originate from within a web page according to a point-and-click matrix:
 
 - domain names (left column)
   * from very specific
@@ -32,7 +32,7 @@ Out of the box, uMatrix works in relax block-all/allow-exceptionally mode, meani
 
 You can blacklist/whitelist a single cell, an entire row, a group of rows, an entire column, or the whole matrix with just one click.
 
-uMatrix's filtering engine uses precedence logic to evaluate what is blocked/allowed according to which cells are blacklisted/whitelisted. For example, this allows you to whitelist a whole page with one click, without having to repeatedly whitelist whatever new data appear on the page.
+nuTensor's filtering engine uses precedence logic to evaluate what is blocked/allowed according to which cells are blacklisted/whitelisted. For example, this allows you to whitelist a whole page with one click, without having to repeatedly whitelist whatever new data appear on the page.
 
 All rules are scoped. For example, you can block `facebook.com` and `facebook.net` everywhere except when visiting a page on `www.facebook.com`. This way Facebook won't be able to build a profile of your browsing habits.
 
@@ -74,8 +74,8 @@ This extension is also useful if you wish to speed up your browsing, by globally
 
 =====
 
-BUGS, ISSUES: https://github.com/uBlockOrigin/uMatrix-issues/issues
+BUGS, ISSUES: https://github.com/geekprojects/nuTensor/issues
 
-SOURCE CODE: https://github.com/gorhill/uMatrix (GPLv3)
+SOURCE CODE: https://github.com/geekprojects/nuTensor (GPLv3)
 
-CHANGE LOG: https://github.com/gorhill/uMatrix/releases
+CHANGE LOG: https://github.com/unbeatable-101/nuTensor/releases

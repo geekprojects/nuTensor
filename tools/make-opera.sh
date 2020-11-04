@@ -2,10 +2,10 @@
 #
 # This script assumes a linux environment
 
-echo "*** uMatrix.opera: Creating package"
-echo "*** uMatrix.opera: Copying files"
+echo "*** nuTensor.opera: Creating package"
+echo "*** nuTensor.opera: Copying files"
 
-DES=./dist/build/uMatrix.opera
+DES=./dist/build/nuTensor.opera
 rm -r $DES
 mkdir -p $DES
 
@@ -33,7 +33,7 @@ cp -R ./src/_locales/pt_PT $DES/_locales/
 cp -R ./src/_locales/tr    $DES/_locales/
 cp -R ./src/_locales/zh_TW $DES/_locales/
 
-echo "*** uMatrix.opera: Generating meta..."
+echo "*** nuTensor.opera: Generating meta..."
 python3 tools/make-opera-meta.py        $DES/
 
-echo "*** uMatrix.opera: Package done."
+echo "*** nuTensor.opera: Package done."

@@ -5,9 +5,9 @@
 DLDIR=~/Downloads
 ARCDIR=$DLDIR/crowdin
 
-echo "*** uMatrix: Importing from Crowdin archive"
+echo "*** nuTensor: Importing from Crowdin archive"
 rm -r $ARCDIR
-unzip -q $DLDIR/uMatrix.zip -d $ARCDIR
+unzip -q $DLDIR/nuTensor.zip -d $ARCDIR
 
 # Add-on strings
 LOCALEDIR=src/_locales
@@ -66,6 +66,6 @@ cp $SRCDIR/zh_CN/messages.json  $DESDIR/zh_CN/messages.json
 cp $SRCDIR/zh_TW/messages.json  $DESDIR/zh_TW/messages.json
 
 rm -r $ARCDIR
-echo "*** uMatrix: Import done."
+echo "*** nuTensor: Import done."
 
 git status
